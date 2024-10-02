@@ -5,6 +5,31 @@
     <link rel="icon" type="image/png" href="favicon.png">
     <meta charset="utf-8">
     <link rel="stylesheet" href="styles.css">
+    <style>
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        .grid-item {
+            text-align: center;
+        }
+
+        .grid-item img {
+            width: 100%;
+            height: 400px; /* Altura fija para todas las imágenes */
+            object-fit: cover; /* Asegura que la imagen se recorte sin perder proporción */
+            border-radius: 10px; /* Bordes redondeados opcionales */
+        }
+
+        .wip {
+            color: #ffffff44;
+            font-style: italic;
+            margin-top: 10px;
+        }
+    </style>
 </head>
 <body>
     
@@ -24,22 +49,54 @@
         <!-- Cuadrícula de fotos -->
         <div class="grid">
             <div class="grid-item">
-                <img src="img/gato1.jpg" alt="Gatito 1">
-                <p class="wip">Este es Bolainas, rescatado en 2021.</p>
+                <img src="img/6.jpg" alt="Gatito 1">
+                <p class="wip">Nueva llegada de trillizas! Venus, Rubi y Olivia.</p>
             </div>
             <div class="grid-item">
-                <img src="img/gato2.jpg" alt="Gatito 2">
-                <p class="wip">Gatita Olivia jugando en el refugio.</p>
+                <img src="img/9.jpg" alt="Gatito 2">
+                <p class="wip">Quesito preparándose para la pasarela.</p>
             </div>
             <div class="grid-item">
-                <img src="img/gato3.jpg" alt="Gatito 3">
-                <p class="wip">Luna tomando su siesta favorita.</p>
+                <img src="img/3.jpg" alt="Gatito 3">
+                <p class="wip">Sofi, madrina de Cucho, dándole unos ricos sabrositos!</p>
             </div>
             <div class="grid-item">
-                <img src="img/gato4.jpg" alt="Gatito 4">
-                <p class="wip">Nube disfrutando del sol.</p>
+                <img src="img/4.jpg" alt="Gatito 4">
+                <p class="wip">Padrino Monty mimando a Chanchi.</p>
             </div>
-            <!-- Puedes seguir agregando más fotos en la misma estructura -->
+            <div class="grid-item">
+                <img src="img/5.jpg" alt="Gatito 5">
+                <p class="wip">Madrina Cande prepara a Pitufina para su rutina matutina.</p>
+            </div>
+            <div class="grid-item">
+                <img src="img/1.jpg" alt="Gatito 6">
+                <p class="wip">Mocca camuflándose entre sus plantitas.</p>
+            </div>
+            <div class="grid-item">
+                <img src="img/7.jpg" alt="Gatito 7">
+                <p class="wip">Madrina Alice, fan de Sanrio, almorzando con su Kitty.</p>
+            </div>
+            <div class="grid-item">
+                <img src="img/8.jpg" alt="Gatito 8">
+                <p class="wip">NPC (non pettable cat) Osito relajándose al sol.</p>
+            </div>
+            <div class="grid-item">
+                <img src="img/2.jpg" alt="Gatito 9">
+                <p class="wip">C   H   A   N   C   H   O   !   !   !</p>
+            </div>
+            <div class="grid-item">
+                <img src="img/10.jpg" alt="Gatito 10">
+                <p class="wip">Cucho con sueñito.</p>
+            </div>
+            <!-- Los siguientes divs estaban mal cerrados, corregido -->
+            <div class="grid-item">
+                <img src="img/11.jpg" alt="Gatito 11">
+                <p class="wip">Yapper, justo antes de irse a su nueva casita oficial.</p>
+            </div>
+            <div class="grid-item">
+                <img src="img/12.jpg" alt="Gatito 12">
+                <p class="wip">Nico, conociendo a Kitty!</p>
+            </div>
         </div>
     </section>
 </body>

@@ -5,6 +5,15 @@
     <link rel="icon" type="image/png" href="favicon.png">
     <meta charset="utf-8">
     <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Estilo para asegurar que la imagen no se salga del canvas */
+        img {
+            max-width: 100%; /* Asegura que la imagen no supere el 100% del ancho del contenedor */
+            height: auto;    /* Mantiene la proporción original de la imagen */
+            display: block;  /* Evita espacios debajo de la imagen */
+            margin: 20px auto; /* Centra la imagen horizontalmente */
+        }
+    </style>
 </head>
 <body>
     
@@ -22,7 +31,8 @@
         <h1 class="name">BECCAT</h1>
         <p>Bienvenidos a Beccat, el refugio de gatitos donde ayudamos a gatitos de la calle a encontrar un hogar lleno de amor.</p>
         <p class="wip">Mira una imagen de nosotros:</p>
-        <img src="img/IMG_0306.HEIC" alt="Imagen de nuestro equipo">
+        <img src="img/equipo.jpg" alt="Imagen de nuestro equipo">
+        <p class="wip">Nico, Alice, Cande, Carla y Fran.</p>
     </section>
 </body>
 </html>
