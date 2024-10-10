@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>BECCAT - Cat Shelter</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Estilo para asegurar que la imagen no se salga del canvas */
+        img {
+            max-width: 100%; /* Asegura que la imagen no supere el 100% del ancho del contenedor */
+            height: auto;    /* Mantiene la proporción original de la imagen */
+            display: block;  /* Evita espacios debajo de la imagen */
+            margin: 20px auto; /* Centra la imagen horizontalmente */
+        }
+    </style>
+</head>
+<body>
+    
+    <nav class="fade-in">
+        <ul>
+            <li><a href="#"><i class="material-icons">home</i>Home</a></li>
+            <li><a href="about_en.html"><i class="material-icons">search</i>About Us</a></li>
+            <li><a href="game_en.html"><i class="material-icons">gamepad</i>Game</a></li>
+            <li><a href="fotos_en.html"><i class="material-icons">photo</i>Photos</a></li>
+            <li><a href="ayudar_en.html"><i class="material-icons">volunteer_activism</i>Help</a></li>
+            <li style="float: right;"><a href="index.html"><i class="material-icons">language</i>Español</a></li> <!-- Botón de cambio a español -->
+        </ul>
+    </nav>
+
+    <section id="main" class="fade-in">
+        <h1 class="name">BECCAT</h1>
+        <p>Welcome to Beccat, the shelter where we help stray kittens find a loving home.</p>
+        <p class="wip">Check out a picture of us:</p>
+        <img src="img/equipo.jpg" alt="Our team">
+        <p class="wip">Nico, Alice, Cande, Carla, and Fran.</p>
+    </section>
+</body>
+</html>
