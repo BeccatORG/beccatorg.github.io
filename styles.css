@@ -119,8 +119,8 @@ a:hover {
 }
 
 .pfp {
-    border-radius: 50%;
-    max-width: 300px;
+    border-radius: 10%;
+    max-width: 400px;
     margin-left: 20px;
 }
 
